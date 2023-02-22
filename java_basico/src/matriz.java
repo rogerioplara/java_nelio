@@ -10,19 +10,35 @@ public class matriz {
 		// matriz[1][3] -> linha 1 coluna 3;
 		Scanner sc = new Scanner(System.in);
 		
-		int[][] numeros = new int[2][2];
+		int m = sc.nextInt();
+		int n = sc.nextInt();
 		
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 2; j++) {
-				numeros[i][j] = sc.nextInt();
+		int[][] mat = new int[m][n];
+		
+		// primeiro for percorre as linhas;
+		//segundo for percorre as colunas;
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				mat[i][j] = sc.nextInt();
 			}
-			
 		}
 		
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 2; j++) {
-				System.out.println(numeros[i][j]);				
-			}			
+		for (int[] linha : mat) {
+			for (int coluna : linha) {
+				//imprime os valores de cada coluna em cada linha, adicionando um espaço entre os elementos;
+				System.out.print(coluna + " ");
+			}
+			//gera a quebra de linha para cada linha percorrida
+			System.out.println();
+		}
+		
+		System.out.println();
+		// também é possível fazer com um for
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				System.out.print(mat[i][j] + " ");
+			}
+			System.out.println();
 		}
 		
 		sc.close();

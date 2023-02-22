@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicio_013 {
+public class matriz_001 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -37,8 +37,6 @@ public class exercicio_013 {
 		}
 		
 		System.out.println("QUANTIDADE DE NEGATIVOS: " + negativos);
-		
-		
 		
 		sc.close();
 	}

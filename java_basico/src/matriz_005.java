@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class matriz_005 {
 
 	public static void main(String[] args) {
+		
+//		 Ler um inteiro N e uma matriz quadrada de ordem N. Mostrar qual o maior elemento de cada linha. Suponha não haver 
+//		 empates.
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -18,6 +22,10 @@ public class matriz_005 {
 					maior[i] = numeros[i][j];
 				}
 			}
+		}
+		
+		for (int linha : maior) {
+			System.out.println(linha);
 		}
 		
 		sc.close();

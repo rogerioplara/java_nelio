@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class vetor5 {
     public static void main(String[] args) {
+    	
+//    	Fazer um programa para ler um vetor de N números inteiros. Em seguida, mostrar na tela a média aritmética somente 
+//    	dos números pares lidos. 
+    	
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 

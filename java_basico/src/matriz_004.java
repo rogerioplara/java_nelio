@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class matriz_004 {
 	public static void main(String[] args) {
+		
+//		Ler um número N e depois uma matriz quadrada NxN com números inteiros. Depois, mostrar na tela a soma dos 
+//		elementos de cada linha da matriz.
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		

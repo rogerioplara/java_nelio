@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 public class vetor2 {
     public static void main(String[] args) {
+    	
+//    	Faça um programa que leia N números inteiros e armazene-os em um vetor. Em seguida, mostre na tela:
+//    	- todos os números pares
+//    	- a quantidade de números pares
+    	
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 

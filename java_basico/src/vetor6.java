@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class vetor6 {
     public static void main(String[] args) {
+    	
+//    	 Fazer um programa para ler um conjunto de nomes de pessoas e suas respectivas idades. Depois, mostrar na tela o nome 
+//    	 da pessoa mais velha
+    	
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         

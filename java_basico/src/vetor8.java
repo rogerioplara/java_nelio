@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class vetor8 {
     public static void main(String[] args) {
+    	
+//    	Tem-se um conjunto de dados contendo a altura e o sexo (M, F) de N pessoas. Fazer um programa que calcule e escreva:
+//    	- a maior e a menor altura do grupo
+//    	- a média de altura das mulheres
+//    	- o número de homens
+    	
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 

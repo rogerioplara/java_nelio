@@ -23,7 +23,7 @@ public class exercicio_009 {
 		}
 		
 		if (qtdIdade > 0) {
-			double media = (double) idadeTotal / qtdIdade;
+			double media = idadeTotal / qtdIdade;
 			System.out.printf("%.2f%n", media);
 		} else {
 			System.out.println("impossivel calcular");

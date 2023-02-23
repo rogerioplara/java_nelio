@@ -10,6 +10,6 @@ Iniciado em Fev/23 com o intuito de revisar as bases de lógica de programação
 
 ---
 
-# Curso de Java OOP
+# Curso de **Java OOP**
 
-Inicia
+Iniciado em Fev/23 com o intuito de lapidar e cementar meu conhecimento em **programação orientada a objetos**

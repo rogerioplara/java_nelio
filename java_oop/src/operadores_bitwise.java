@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class operadores_bitwise {
-    public static void main(String[] args) {
+    
+	public static void main(String[] args) {
         // operador & -> E bit a bit (and)
         // operador | -> OU bit a bit (or)
         // operador ^ -> OU-EXCLUSIVO bit a bit (xor)
@@ -21,6 +22,7 @@ public class operadores_bitwise {
         } else {
             System.out.println("6th bit is false!");
         }
-
+        
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-# Curso de **Java** básico
+# Curso de ***Java*** básico
 
 Iniciado em Fev/23 com o intuito de revisar as bases de lógica de programação em conjunto com o aprendizado de uma nova linguagem
 
@@ -10,6 +10,6 @@ Iniciado em Fev/23 com o intuito de revisar as bases de lógica de programação
 
 ---
 
-# Curso de **Java OOP**
+# Curso de ***Java*** OOP
 
 Iniciado em Fev/23 com o intuito de lapidar e cementar meu conhecimento em **programação orientada a objetos**

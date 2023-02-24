@@ -7,5 +7,7 @@
 	<classpathentry kind="src" path="exercicio_retangulo"/>
 	<classpathentry kind="src" path="exercicio_employee"/>
 	<classpathentry kind="src" path="exercicio_student"/>
+	<classpathentry kind="src" path="exercicio_estaticos"/>
+	<classpathentry kind="src" path="exercicio_currencyConverter"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

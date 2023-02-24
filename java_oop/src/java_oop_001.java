@@ -1,15 +1,15 @@
-import java.util.Locale;
-import java.util.Scanner;
-
 public class java_oop_001 {
     
 	public static void main(String[] args) {
-        // resolvendo um problema sem oop
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+        
+		/*
+		Toda classe em java é uma suabclasse da classe Object
 		
-		
-		
-		sc.close();
+		Object possui os seguintes métodos:
+			getClass - retorna o tipo do objeto
+			equals - compara se o objeto é igual a outro
+			hashCode - retorna um código hash do objeto
+			toString - converte o objeto para string
+		*/
     }
 }

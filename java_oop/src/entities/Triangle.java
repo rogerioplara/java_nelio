@@ -9,12 +9,14 @@ public class Triangle {
 	
 	// classe é a definição do tipo
 	
-	//método/funcao para calcular a área do triângulo
+	// método/funcao para calcular a área do triângulo
 	public double area() {
 		double p = (a + b + c) / 2.0;
 		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
 	}
 
+	// cada classe é responsável por si mesma (coesão)
+	
 }
 
 

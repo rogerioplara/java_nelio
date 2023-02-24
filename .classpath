@@ -3,5 +3,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="java_basico/src"/>
 	<classpathentry kind="src" path="java_oop/src"/>
+	<classpathentry kind="src" path="exercicio_estoque"/>
+	<classpathentry kind="src" path="exercicio_retangulo"/>
+	<classpathentry kind="src" path="exercicio_employee"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

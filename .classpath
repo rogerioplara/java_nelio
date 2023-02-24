@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="exercicio_estoque"/>
 	<classpathentry kind="src" path="exercicio_retangulo"/>
 	<classpathentry kind="src" path="exercicio_employee"/>
+	<classpathentry kind="src" path="exercicio_student"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

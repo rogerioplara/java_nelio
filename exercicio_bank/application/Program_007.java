@@ -11,24 +11,25 @@ public class Program_007 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		//instancia da variavel para poder instanciar o objeto posteriormente;
+		Bank bank;
+		
 		System.out.print("Enter account number: ");
 		int accountNumber = sc.nextInt();
-		sc.nextLine();
 		
-		System.out.println("Enter account holder: ");
+		System.out.print("Enter account holder: ");
+		sc.nextLine(); //consome a linha para ler o nome completo
 		String name = sc.nextLine();
 		
 		System.out.print("Is there an initial deposit (y/n)? ");
 		char initialDeposit = sc.next().charAt(0);
 		
-		Bank bank = new Bank(accountNumber, name);
-		bank.setAccountNumber(accountNumber);
-		bank.setName(name);
-		
 		if (initialDeposit == 'y') {
 			System.out.print("Enter initial deposit value: ");
-			double balance = sc.nextDouble();
-			bank.deposit(balance);
+			double firstDeposit = sc.nextDouble();
+			bank = new Bank(accountNumber, name, firstDeposit);
+		} else {
+			bank = new Bank(accountNumber, name);
 		}
 		
 		System.out.println();

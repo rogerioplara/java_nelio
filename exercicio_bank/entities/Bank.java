@@ -10,8 +10,14 @@ public class Bank {
 		this.accountNumber = accountNumber;
 		this.name = name;
 	}
+	
+	public Bank(int accountNumber, String name, double firstDeposit) {
+		this.accountNumber = accountNumber;
+		this.name = name;
+		deposit(firstDeposit);
+	}
 
-	private String getName() {
+	public String getName() {
 		return name;
 	}
 
@@ -19,15 +25,11 @@ public class Bank {
 		this.name = name;
 	}
 
-	private int getAccountNumber() {
+	public int getAccountNumber() {
 		return accountNumber;
 	}
-	
-	public void setAccountNumber(int accountNumber) {
-		this.accountNumber = accountNumber;
-	}
 
-	private double getBalance() {
+	public double getBalance() {
 		return balance;
 	}
 

@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="exercicio_student"/>
 	<classpathentry kind="src" path="exercicio_estaticos"/>
 	<classpathentry kind="src" path="exercicio_currencyConverter"/>
+	<classpathentry kind="src" path="exercicio_bank"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

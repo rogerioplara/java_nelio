@@ -11,7 +11,7 @@ public class Program_007 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		//instancia da variavel para poder instanciar o objeto posteriormente;
+		//declaração da variavel para poder instanciar o objeto posteriormente;
 		Bank bank;
 		
 		System.out.print("Enter account number: ");

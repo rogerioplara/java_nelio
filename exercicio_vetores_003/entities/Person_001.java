@@ -1,15 +1,13 @@
 package entities;
 
-public class Person {
+public class Person_001 {
 	
 	private String name;
 	private int age;
-	private double height;
 	
-	public Person(String name, int age, double height) {
+	public Person_001(String name, int age) {
 		this.name = name;
 		this.age = age;
-		this.height = height;
 	}
 
 	public String getName() {
@@ -27,13 +25,8 @@ public class Person {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-	public double getHeight() {
-		return height;
-	}
-
-	public void setHeight(double height) {
-		this.height = height;
-	}
 	
+	
+	
+
 }

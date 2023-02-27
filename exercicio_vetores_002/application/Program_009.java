@@ -53,7 +53,13 @@ public class Program_009 {
 		double amountUnderage = (underage / vect.length) * 100;
 		
 		System.out.printf("Altura média: %.2f%n", avg);
-		System.out.printf("Pessoas com menos de 16 anos: %%%.1f%n", amountUnderage);
+		System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", amountUnderage);
+		
+		for (Person person : vect) {
+			if (person.getAge() < 16) {
+				System.out.println(person.getName());
+			}
+		}
 		
 		sc.close();
 	}

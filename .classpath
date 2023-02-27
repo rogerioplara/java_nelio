@@ -10,5 +10,7 @@
 	<classpathentry kind="src" path="exercicio_estaticos"/>
 	<classpathentry kind="src" path="exercicio_currencyConverter"/>
 	<classpathentry kind="src" path="exercicio_bank"/>
+	<classpathentry kind="src" path="exercicio_vetores_001"/>
+	<classpathentry kind="src" path="exercicio_vetores_002"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

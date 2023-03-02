@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="exercicio_vetores_004"/>
 	<classpathentry kind="src" path="exercicio_vetores_005"/>
 	<classpathentry kind="src" path="desafio_vetores_quartos"/>
+	<classpathentry kind="src" path="exeercicio_list"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

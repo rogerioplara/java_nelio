@@ -33,7 +33,7 @@ public class Program_014 {
 			System.out.print("Salary: ");
 			Double salary = sc.nextDouble();
 			
-			//iniiando o objeto;
+			//iniciando o objeto;
 			Funcionarios funcionario = new Funcionarios(id, name, salary);
 			
 			//adicionando a lista;
@@ -44,21 +44,44 @@ public class Program_014 {
 		System.out.println("Enter the employee id that will have salary increase: ");		
 		Integer idSearch = sc.nextInt();
 		
-		System.out.print("Enter increase percentage: ");
-		Double percentage = sc.nextDouble();
-		
+		//minha solução
 		for (Funcionarios funcionario : list) {
 			if (idSearch.equals(funcionario.getId())) {
+				System.out.print("Enter increase percentage: ");
+				Double percentage = sc.nextDouble();
 				funcionario.increaseSalary(percentage);
+				System.out.print(funcionario);
+			} else {
+				System.out.println("This id does not exist!");
+				break;
 			}
 		}
 		
-		System.out.println();
-		for (Funcionarios funcionarios : list) {
-			System.out.print(funcionarios);
-		}
-		
+		//solução do professor
+//		Integer pos = position(list, idSearch);
+//		if (pos == null) {
+//			System.out.println("This id does not exist!");
+//		} else {
+//			System.out.print("Enter increase percentage: ");
+//			Double percentage = sc.nextDouble();
+//			
+//			list.get(pos).increaseSalary(percentage);
+//		}
+//		
+//		System.out.println();
+			
 		sc.close();
 	}
+	
+	//função auxiliar para encontrar o ID na lista;
+//	public static Integer position(List<Funcionarios> list, int idSearch) {
+//		for (int i = 0; i < list.size(); i++) {
+//			if (list.get(i).getId() == idSearch) {
+//				return i;
+//			}
+//		}
+//		
+//		return null;
+//	}
 
 }

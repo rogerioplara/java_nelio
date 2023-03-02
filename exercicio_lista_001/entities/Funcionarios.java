@@ -40,6 +40,7 @@ public class Funcionarios {
 		this.salary += getSalary() * (percentage / 100);
 	}
 
+	@Override
 	public String toString() {
 		return String.format("%d, %s, %.2f%n", getId(), getName(), getSalary());
 	}	

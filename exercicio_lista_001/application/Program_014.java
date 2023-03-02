@@ -18,7 +18,7 @@ public class Program_014 {
 		int n = sc.nextInt();	
 		
 		//instancia da lista;
-		List<Funcionarios> func = new ArrayList<>();
+		List<Funcionarios> list = new ArrayList<>();
 		
 		for (int i = 0; i < n; i++) {
 			System.out.printf("Employee #%d%n", i + 1);
@@ -37,16 +37,26 @@ public class Program_014 {
 			Funcionarios funcionario = new Funcionarios(id, name, salary);
 			
 			//adicionando a lista;
-			func.add(funcionario);
+			list.add(funcionario);
 		}
 		
 		System.out.println();
 		System.out.println("Enter the employee id that will have salary increase: ");		
 		Integer idSearch = sc.nextInt();
 		
-		System.out.println("Enter increase percentage: ");
+		System.out.print("Enter increase percentage: ");
 		Double percentage = sc.nextDouble();
 		
+		for (Funcionarios funcionario : list) {
+			if (idSearch.equals(funcionario.getId())) {
+				funcionario.increaseSalary(percentage);
+			}
+		}
+		
+		System.out.println();
+		for (Funcionarios funcionarios : list) {
+			System.out.print(funcionarios);
+		}
 		
 		sc.close();
 	}

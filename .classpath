@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="desafio_vetores_quartos"/>
+	<classpathentry kind="src" path="exercicio_bank"/>
+	<classpathentry kind="src" path="exercicio_currencyConverter"/>
+	<classpathentry kind="src" path="exercicio_employee"/>
+	<classpathentry kind="src" path="exercicio_estaticos"/>
+	<classpathentry kind="src" path="exercicio_estoque"/>
+	<classpathentry kind="src" path="exercicio_retangulo"/>
+	<classpathentry kind="src" path="exercicio_student"/>
+	<classpathentry kind="src" path="exercicio_vetores_001"/>
+	<classpathentry kind="src" path="exercicio_vetores_002"/>
+	<classpathentry kind="src" path="exercicio_vetores_003"/>
+	<classpathentry kind="src" path="exercicio_vetores_004"/>
+	<classpathentry kind="src" path="exercicio_vetores_005"/>
+	<classpathentry kind="src" path="java_basico/src"/>
+	<classpathentry kind="src" path="java_oop/src"/>
+	<classpathentry kind="src" path="exercicio_lista_001"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

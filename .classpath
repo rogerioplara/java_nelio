@@ -16,6 +16,10 @@
 	<classpathentry kind="src" path="exercicio_vetores_004"/>
 	<classpathentry kind="src" path="exercicio_vetores_005"/>
 	<classpathentry kind="src" path="desafio_vetores_quartos"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="teste_vscode"/>
+=======
+	<classpathentry kind="src" path="exeercicio_list"/>
+>>>>>>> branch 'main' of https://github.com/rogerioplara/java_nelio.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>

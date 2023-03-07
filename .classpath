@@ -22,5 +22,7 @@
 	<classpathentry kind="src" path="java_oop/src"/>
 	<classpathentry kind="src" path="exercicio_lista_001"/>
 	<classpathentry kind="src" path="exercicio_matrizes_001"/>
+	<classpathentry kind="src" path="data_hora"/>
+	<classpathentry kind="src" path="enumeracoes"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

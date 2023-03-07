@@ -153,7 +153,7 @@ public class Program_016 {
 
         // fmt2
         System.out.println("fmt2");
-        System.out.println("d04 = " + d05.format(fmt2));
+        System.out.println("d05 = " + d05.format(fmt2));
 
         // instant customizado
         System.out.println("instant customizado");

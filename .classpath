@@ -24,5 +24,9 @@
 	<classpathentry kind="src" path="exercicio_matrizes_001"/>
 	<classpathentry kind="src" path="data_hora"/>
 	<classpathentry kind="src" path="enumeracoes"/>
+	<classpathentry kind="src" path="design"/>
+	<classpathentry kind="src" path="composicao"/>
+	<classpathentry kind="src" path="exercicio_composicao"/>
+	<classpathentry kind="src" path="exercicio_blog"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

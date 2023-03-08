@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import entities.Product_001;
 
 public class Program_008 {
 
@@ -17,7 +17,7 @@ public class Program_008 {
 		int n = sc.nextInt();
 		
 		//forma de instanciar um vetor de objetos;
-		Product[] vect = new Product[n];	
+		Product_001[] vect = new Product_001[n];	
 		
 		for (int i = 0; i < vect.length; i++) {
 			sc.nextLine(); //consumir a quebra de linha
@@ -25,7 +25,7 @@ public class Program_008 {
 			double price = sc.nextDouble();
 			
 			//referenciando o objeto e armazenando nos índices;
-			vect[i] = new Product(name, price);	
+			vect[i] = new Product_001(name, price);	
 		}
 		
 		double sum = 0.0;

@@ -28,5 +28,6 @@
 	<classpathentry kind="src" path="composicao"/>
 	<classpathentry kind="src" path="exercicio_composicao"/>
 	<classpathentry kind="src" path="exercicio_blog"/>
+	<classpathentry kind="src" path="exercicio_composicao_001"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
